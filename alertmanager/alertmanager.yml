@@ -1,0 +1,17 @@
+global:
+  resolve_timeout: 1m
+
+route:
+  receiver: "gmail-notifications"
+
+receivers:
+  - name: gmail-notifications
+    email_configs:
+      - to: "xxx@gmail.com"
+        from: "yyy@gmail.com"
+        smarthost: smtp.gmail.com:587
+        auth_username: yyy@gmail.com
+        auth_identity: yyy@gmail.com
+        auth_password: password
+        send_resolved: true
+        html: '{{ template "email" .}}'

@@ -1,2 +1,3 @@
 # Monitoring
-Sample codes to monitor using Prometheus and Grafana
+
+Docker based monitoring using Prometheus and Grafana
