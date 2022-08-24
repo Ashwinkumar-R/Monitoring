@@ -1,6 +1,6 @@
 # Monitoring
 
-Docker based monitoring using Prometheus and Grafana
+Docker based monitoring using Prometheus and Grafana.  
 Docker file is written to be in compatible with MacOS mapping to internal host.
 
 # Start
