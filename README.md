@@ -9,7 +9,7 @@ docker-compose -f docker-compose.yml up
 
 # Metrics URL
 
-- Grafana - [localhost:3000]
+- Grafana - [localhost:3000] (localhost:3000)
 - Prometheus - [localhost:9090]
 - Alert Manager - [localhost:9093]
 - Cadvisor - [localhost:8084]
