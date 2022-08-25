@@ -76,7 +76,7 @@ services:
   renderer:
     image: grafana/grafana-image-renderer:latest
     ports:
-      - 8081:8081
+      - 8082:8081
     extra_hosts: ["host.docker.internal:host-gateway"]
 
   redis:
