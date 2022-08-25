@@ -20,5 +20,5 @@ docker-compose -f docker-compose.yml up
 
 **Grafana**
 
-username: admin
+username: admin  
 password: admin
